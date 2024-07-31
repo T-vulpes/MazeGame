@@ -1,2 +1,2 @@
 # MazeGame
-BASIC GAME
+BASIC GA
