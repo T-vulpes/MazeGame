@@ -163,14 +163,14 @@ function checkWin() {
             setupNextLevel();
         } else {
             messageDiv.textContent = 'Congratulations! You have completed all levels!';
-            nextLevelBtn.disabled = true; // Disable the "Next Level" button
+            nextLevelBtn.disabled = true; 
         }
     }
 }
 
 function setupNextLevel() {
     if (level > maxLevel) {
-        return; // Prevent further levels
+        return; 
     }
     cellSize -= 10;
     cols = Math.floor(canvas.width / cellSize);
