@@ -11,13 +11,13 @@ let grid = [];
 let stack = [];
 let current;
 let level = 1;
-const maxLevel = 3; // Define maximum level
+const maxLevel = 3;
 
 class Cell {
     constructor(x, y) {
         this.x = x;
         this.y = y;
-        this.walls = [true, true, true, true]; // top, right, bottom, left
+        this.walls = [true, true, true, true]; 
         this.visited = false;
     }
 
